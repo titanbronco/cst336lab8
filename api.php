@@ -20,8 +20,6 @@ function getDatabaseConnection() {
 function getUsersThatMatchUserName() {
     
     $username = $_GET['username']; 
-    
-    echo "$username";
 
     
      $dbConn = getDatabaseConnection(); 
